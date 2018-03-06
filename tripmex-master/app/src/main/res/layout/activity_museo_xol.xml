@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.tripmex.museoXol"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Museo Interactivo Xoloitzcuintle"
+            android:textColor="#000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_weight="0.46"
+            app:srcCompat="@drawable/museocolima" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.46"
+            android:text="Ofrecer, con una perspectiva lúdica y divertida, un espacio de divulgación científica y tecnológica de calidad para la infancia colimense y el público en general, fomentando en nuestros usuarios el interés por el conocimiento y cuidado del medio ambiente y el respeto a la flora y la fauna de nuestro estado, a través de la interacción en diversas actividades didácticas. "
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/butmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.46"
+            android:text="Como Llegar"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

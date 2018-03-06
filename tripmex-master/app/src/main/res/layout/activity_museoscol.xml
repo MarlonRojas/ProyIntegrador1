@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.tripmex.museoscol">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Colima, colima, México.             Tel. +52(312)3141533  museoxoloitzcuintle.col.gob.mx"
+    android:id="@+id/texto"
+    android:layout_below="@+id/category"
+    android:layout_toRightOf="@+id/imgbmusX"
+    android:layout_toEndOf="@+id/imgbmusX" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Museo Interactivo Xoloitzcuintle"
+        android:id="@+id/category"
+        android:textSize="21sp"
+        android:textColor="#f65034"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgbmusX"
+        android:layout_toEndOf="@+id/imgbmusX" />
+
+    <ImageButton
+        android:id="@+id/imgbmusX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/texto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:src="@drawable/museocolima3" />
+
+</RelativeLayout>

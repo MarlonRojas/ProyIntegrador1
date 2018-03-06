@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tripmex</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_mapxol">Map</string>
+    <string name="title_activity_recycler_iglesias">RecyclerIglesias</string>
+    <string name="title_activity_template_lugar">TemplateLugar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

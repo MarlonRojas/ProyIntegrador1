@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-07-31" view-index="0" gantt-divider-location="267" resource-divider-location="300" version="2.7.2" locale="es">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="55" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="22" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="22" order="2"/>
+        <option id="color.recent"><![CDATA[#66ff66 #00cc00 #ff6666 #ff0000 #ffff00 #f4f4f4 #ffff33 #0033ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Documentación" color="#0033ff" meeting="false" start="2017-08-28" duration="60" complete="0" priority="2" expand="false">
+            <task id="15" name="Buscar Auditorios/Teatros" color="#8cb6ce" meeting="false" start="2017-08-28" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="49" name="Validación" color="#ffff00" meeting="false" start="2017-09-01" duration="1" complete="0" expand="true"/>
+            <task id="16" name="Buscar Museos" color="#8cb6ce" meeting="false" start="2017-09-04" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="51" name="Validación" color="#ffff00" meeting="false" start="2017-09-08" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="17" name="Buscar Monumentos/Estatuas" color="#8cb6ce" meeting="false" start="2017-09-11" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="53" name="Validación" color="#ffff00" meeting="false" start="2017-09-15" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="18" name="Buscar Parques" color="#8cb6ce" meeting="false" start="2017-09-18" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="55" name="Validación" color="#ffff00" meeting="false" start="2017-09-22" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="19" name="Buscar Plazas/Centros Comerciales" color="#8cb6ce" meeting="false" start="2017-10-09" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="57" name="Validación" color="#ffff00" meeting="false" start="2017-10-13" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="20" name="Buscar Rios y Lagos" color="#8cb6ce" meeting="false" start="2017-10-16" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="59" name="Validación" color="#ffff00" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="21" name="Buscar Pueblos" color="#8cb6ce" meeting="false" start="2017-10-23" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="61" name="Validación" color="#ffff00" meeting="false" start="2017-10-27" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="22" name="Buscar Restaurantes" color="#8cb6ce" meeting="false" start="2017-10-30" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="63" name="Validación" color="#ffff00" meeting="false" start="2017-11-03" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="68" name="Buscar Iglesias/Lugares Sagrados" color="#8cb6ce" meeting="false" start="2017-11-06" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="70" name="Validación" color="#ffff00" meeting="false" start="2017-11-10" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="73" name="Cultura y Tradiciones" color="#8cb6ce" meeting="false" start="2017-11-13" duration="4" complete="0" priority="2" expand="true"/>
+            <task id="75" name="Validación" color="#ffff00" meeting="false" start="2017-11-17" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        </task>
+        <task id="103" name="Diseño" color="#ff0000" meeting="false" start="2017-08-28" duration="65" complete="0" expand="false">
+            <task id="141" name="Diseño Logo" color="#ff6666" meeting="false" start="2017-08-28" duration="5" complete="0" expand="true"/>
+            <task id="142" name="Diseño Iconos" color="#ff6666" meeting="false" start="2017-09-04" duration="5" complete="0" expand="true"/>
+            <task id="143" name="Nombrar App" color="#ff6666" meeting="false" start="2017-09-11" duration="3" complete="0" expand="true"/>
+            <task id="144" name="Prueba de Diseño" color="#ff6666" meeting="false" start="2017-09-14" duration="2" complete="0" expand="true"/>
+            <task id="145" name="Modificar Errores" color="#ff6666" meeting="false" start="2017-09-18" duration="2" complete="0" expand="true"/>
+            <task id="147" name="Combinaciones de Colores de la App" color="#ff6666" meeting="false" start="2017-09-25" duration="1" complete="0" expand="true"/>
+            <task id="146" name="Búsqueda Imagenes de Lugares" color="#ff6666" meeting="false" start="2017-10-09" duration="25" complete="0" expand="true"/>
+            <task id="148" name="Computarizar Logo" color="#ff6666" meeting="false" start="2017-11-13" duration="2" complete="0" expand="true"/>
+            <task id="149" name="Computarizar Iconos" color="#ff6666" meeting="false" start="2017-11-15" duration="3" complete="0" expand="true"/>
+            <task id="150" name="Test de Diseños" color="#ff6666" meeting="false" start="2017-11-20" duration="2" complete="0" expand="true"/>
+            <task id="151" name="Conclusiones y Entrega" color="#ff6666" meeting="false" start="2017-11-22" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="154" name="Desarrollo" color="#00cc00" meeting="false" start="2017-09-11" duration="51" complete="0" expand="false">
+            <task id="177" name="Obtener Herramientas Para Programación" color="#66ff66" meeting="false" start="2017-09-11" duration="2" complete="0" expand="true"/>
+            <task id="178" name="Estudiar Para Más Conocimiento Sobre La Programación" color="#66ff66" meeting="false" start="2017-09-13" duration="7" complete="0" expand="true"/>
+            <task id="179" name="Programación" color="#66ff66" meeting="false" start="2017-09-22" duration="2" complete="0" expand="true"/>
+            <task id="180" name="Validación del Funcionamiento" color="#66ff66" meeting="false" start="2017-10-09" duration="3" complete="0" expand="true"/>
+            <task id="181" name="Creacion de la Base de Daots" color="#66ff66" meeting="false" start="2017-10-12" duration="2" complete="0" expand="true"/>
+            <task id="182" name="Conexión de la Base de Datos a Interfaz Principal" color="#66ff66" meeting="false" start="2017-10-16" duration="2" complete="0" expand="true"/>
+            <task id="183" name="Validación/Pruebas" color="#66ff66" meeting="false" start="2017-10-18" duration="3" complete="0" expand="true"/>
+            <task id="215" name="Programación Interfaz de Estados" color="#66ff66" meeting="false" start="2017-10-23" duration="7" complete="0" expand="true"/>
+            <task id="216" name="Conexión de Base de Datos" color="#66ff66" meeting="false" start="2017-11-01" duration="4" complete="0" expand="true"/>
+            <task id="217" name="Ingreso de Diseño" color="#66ff66" meeting="false" start="2017-11-07" duration="2" complete="0" expand="true"/>
+            <task id="218" name="Validación a Detalle" color="#66ff66" meeting="false" start="2017-11-09" duration="2" complete="0" expand="true"/>
+            <task id="219" name="Pruebas con Usuarios" color="#66ff66" meeting="false" start="2017-11-13" duration="1" complete="0" expand="true"/>
+            <task id="220" name="Corrección de Errores" color="#66ff66" meeting="false" start="2017-11-14" duration="2" complete="0" expand="true"/>
+            <task id="221" name="Programación GPS" color="#66ff66" meeting="false" start="2017-11-16" duration="2" complete="0" expand="true"/>
+            <task id="222" name="Validación y Corrección" color="#66ff66" meeting="false" start="2017-11-20" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Julio Andre Leon del Angel" function="SoftwareDevelopment:3" contacts="" phone=""/>
+        <resource id="1" name="Marlon Ivan Rojas Santos" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="Ivan Lugo" function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Karen Padilla" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="4" name="Mike" function="SoftwareDevelopment:4" contacts="" phone=""/>
+        <resource id="5" name="Luis Garcia" function="SoftwareDevelopment:3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="0" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="154" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="103" resource-id="3" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="4" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="57" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="59" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="75" resource-id="5" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="147" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="58" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="58" visible="true"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

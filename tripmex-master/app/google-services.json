@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638701500931",
+    "firebase_url": "https://tripmex-ef7f9.firebaseio.com",
+    "project_id": "tripmex-ef7f9",
+    "storage_bucket": "tripmex-ef7f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638701500931:android:80991c4ef8ce2980",
+        "android_client_info": {
+          "package_name": "com.example.admin.tripmex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638701500931-12uv6ci10oddp00kq1u5nf76d8ak1bjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.tripmex",
+            "certificate_hash": "bdfb62bcdd756029d45d1d23ffdfe97a5db6c78f"
+          }
+        },
+        {
+          "client_id": "638701500931-tfr40j097idfsa1j4f45ga3n5me5utkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG2GAT0UFpZRI-kIsbH3FN4hvLZIc0x4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638701500931-tfr40j097idfsa1j4f45ga3n5me5utkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
